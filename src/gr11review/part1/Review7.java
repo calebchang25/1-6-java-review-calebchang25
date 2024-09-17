@@ -1,6 +1,7 @@
 package gr11review.part1;
 import java.io.*;
 public class Review7{
+    // Cant do without string methods
     public static void main(String[] args) throws IOException{
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         String wordInput = input.readLine();
