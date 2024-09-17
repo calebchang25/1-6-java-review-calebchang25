@@ -8,6 +8,7 @@ public class Review4{
         System.out.print("How many items do you want to buy? ");
         int itemCount = Integer.parseInt(input.readLine());
         double price = 0;
+        // Also couldnt figure out how to do this without loops
         for(int i = 1; i <= itemCount; i++){
             System.out.print("Enter the price for item " + i + ": ");
             price += Double.parseDouble(input.readLine());
